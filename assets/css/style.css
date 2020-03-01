@@ -39,3 +39,6 @@ html {
     background-color: #8A9A5B;
     transition: .7s ease-in-out;
 }
+#map {
+  height: 100%;
+}
