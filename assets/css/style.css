@@ -1,9 +1,7 @@
-html {
+html, body {
   scroll-behavior: smooth;
   overflow-x:hidden;
-}
-html, body {
-  height: 100%;
+   height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -12,9 +10,9 @@ html, body {
     height: 100vh;
     position: relative;
     background: url(https://images.pexels.com/photos/2961929/pexels-photo-2961929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed; 
-    background-size: cover;
     align-items: center;
     justify-content: center;
+    overflow:hidden;
 }
 #landtext {
   position: absolute;
@@ -43,6 +41,19 @@ html, body {
 #gobtn:hover {
     background-color: #8A9A5B;
     transition: .7s ease-in-out;
+}
+.story {
+    margin-top:10rem;
+    margin-left:5rem;
+    margin-right:5rem;
+}
+.storyhead {
+    text-align:center;
+    padding-bottom:5rem;
+
+}
+.img-thumbnail {
+    border:none;
 }
 #map {
   height: 100%;
