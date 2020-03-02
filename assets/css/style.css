@@ -4,6 +4,7 @@ html, body {
    height: 100%;
   margin: 0;
   padding: 0;
+  background-color:bisque;
 }
 
 #landing {
@@ -50,10 +51,13 @@ html, body {
 .storyhead {
     text-align:center;
     padding-bottom:5rem;
-
 }
 .img-thumbnail {
-    border:none;
+  padding:0;
+}
+.storyimg {
+    box-shadow: 10px 10px 5px grey;
+    opacity:90%;
 }
 #map {
   height: 100%;
