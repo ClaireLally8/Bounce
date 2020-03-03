@@ -1,10 +1,9 @@
 html, body {
   scroll-behavior: smooth;
   overflow-x:hidden;
-   height: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
-  background-color:bisque;
 }
 
 #landing {
@@ -67,11 +66,15 @@ html, body {
 }
 #recommendations {
     margin-left:15em;
-    margin-right:15em;
     margin-top:15em;
     margin-bottom:8em;
 }
+.recbtn {
+    padding-left:4rem;
+    padding-right:4rem;
 
+}
 #map {
-  height: 100%;
+	height: 35rem;
+	width: 100%;
 }
