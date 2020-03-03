@@ -59,6 +59,19 @@ html, body {
     box-shadow: 10px 10px 5px grey;
     opacity:90%;
 }
+.sectionhead {
+    padding-top: 2em;
+}
+.sectiontext{
+    padding-top:1rem;
+}
+#recommendations {
+    margin-left:15em;
+    margin-right:15em;
+    margin-top:15em;
+    margin-bottom:8em;
+}
+
 #map {
   height: 100%;
 }
