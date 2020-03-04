@@ -6,70 +6,93 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Travel Diary</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+		integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
 
-<section id="Landing-Page">
-    <div class="row" id=landing>
-      <div class="col-12">
-        <div id="landtext">
-          <h1>Travel Ireland Your Way</h1>
-          <div class="container col-4">
-            <div class="row justify-content-center">
-              <a id="gobtn" href="#My-Story">LET'S GO</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+	<section id="Landing-Page">
+		<div class="row" id=landing>
+			<div class="col-12">
+				<div id="landtext">
+					<h1>Travel Ireland Your Way</h1>
+					<div class="container col-4">
+						<div class="row justify-content-center">
+							<a id="gobtn" href="#My-Story">LET'S GO</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="My-Story" class="story">
+		<h2 class="storyhead">My Story</h2>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="https://images.pexels.com/photos/3703158/pexels-photo-3703158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="image-fluid img-thumbnail storyimg" alt="About Me">
+				<h4 class="sectionhead">About Me</h4>
+				<p class="sectiontext">Travel has always been a passion of mine. In 2016, I decided to pack my bags,
+					fill my van and travel the length and breadth of Ireland. Documenting some of my favourite spots
+					along the way, and ensuring I spread these tips with everyone.
+					My passion for travel has taken me around the world, but my heart always comes back to Ireland.</p>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="https://images.pexels.com/photos/1650918/pexels-photo-1650918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="image-fluid img-thumbnail storyimg" alt="About Me">
+				<h4 class="sectionhead">How it happened</h4>
+				<p class="sectiontext">In 2016, I risked everything. I left my job, but started a new one, working
+					remotely. Allowing me to travel the country. Hiiking and sight-seening has been a passion since I
+					was a child. Being outdoors, the peace, the escape from reality. Now, with everything, I get to do
+					this everyday, for the foreseeable furture. As long as I want. </p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="https://images.pexels.com/photos/1647134/pexels-photo-1647134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="image-fluid img-thumbnail storyimg" alt="About Me">
+				<h4 class="sectionhead">What you'll find</h4>
+				<p class="sectiontext">Travel Ireland is just that. It's my travel diary. There's nothing more I want to
+					do than share my travel experieneces with others & what better place to start, but with my own home.
+					Everything you need to have the best adventure, is in your backgarden. From, the best hiking spots,
+					to sightseeing points, to places to camp. You'll find it all here. </p>
+			</div>
+		</div>
+	</section>
+
+<section id = "recommendation">
+	<div class="row">
+		<div class="col-lg-6 col-sm-12">
+			<div id="map"></div>
+		</div>
+
+		<div class="col-lg-6 col-sm-12">
+			<form>
+				<select class="event-type-select">
+                    <option value="all">All</option>
+                    <option value="eat">Eat</option>
+                    <option value="sleep">Sleep</option>
+                    <option value="todo">To Do</option>
+                </select>
+			</form>
+
+		</div>
+	</div>
 </section>
 
-<section id="My-Story" class="story">
-<h2 class="storyhead">My Story</h2>
-    <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-         <img src="https://images.pexels.com/photos/3703158/pexels-photo-3703158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="image-fluid img-thumbnail storyimg" alt="About Me">
-          <h4 class="sectionhead">About Me</h4>
-          <p class = "sectiontext">Travel has always been a passion of mine.  In 2016, I decided to pack my bags, fill my van and travel the length and breadth of Ireland.  Documenting some of my favourite spots along the way, and ensuring I spread these tips with everyone. 
-          My passion for travel has taken me around the world, but my heart always comes back to Ireland.</p>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-12">
-         <img src="https://images.pexels.com/photos/1650918/pexels-photo-1650918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="image-fluid img-thumbnail storyimg" alt="About Me">
-          <h4 class="sectionhead">How it happened</h4>
-          <p class = "sectiontext">In 2016, I risked everything.  I left my job, but started a new one, working remotely.  Allowing me to travel the country.  Hiiking and sight-seening has been a passion since I was a child.  Being outdoors, the peace, the escape from reality. Now, with everything, I get to do this everyday, for the foreseeable furture. As long as I want. </p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-         <img src="https://images.pexels.com/photos/1647134/pexels-photo-1647134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="image-fluid img-thumbnail storyimg" alt="About Me">
-          <h4 class="sectionhead">What you'll find</h4>
-          <p class = "sectiontext">Travel Ireland is just that.  It's my travel diary.  There's nothing more I want to do than share my travel experieneces with others & what better place to start, but with my own home.  Everything you need to have the best adventure, is in your backgarden. From, the best hiking spots, to sightseeing points, to places to camp.  You'll find it all here. </p>
-        </div></div>
-</section>
-
-<section id="recommendations">
-<div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12"><button class="camping recbtn">Camping</button></div>
-    <div class="col-lg-4 col-md-4 col-sm-12"><button class="sight recbtn">Sights</button></div>
-    <div class="col-lg-4 col-md-4 col-sm-12"><button class="feast recbtn">Feasts</button></div>
-</section>
-
-<div class ="row"><div class="col-lg-6 col-sm-12"> 
-<div id="map"></div> 
-</div>
-
-<div class="col-lg-6 col-sm-12"><table class="table"></table></div></div>
-       
-<footer>
-<h6> this is a footer </h6>
-</footer>
+	<footer>
+		<h6> this is a footer </h6>
+	</footer>
 
 
-<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8trMU_BLfDhjOh7DVXjaPaP2hoZyR2kM&callback=initMap"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
+	<script
+		src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+	</script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8trMU_BLfDhjOh7DVXjaPaP2hoZyR2kM&callback=initMap">
+	</script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
+
 </html>
