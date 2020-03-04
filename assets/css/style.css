@@ -5,7 +5,10 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
+#map {
+	height: 35rem;
+	width: 100%;
+}
 #landing {
     height: 100vh;
     position: relative;
@@ -73,8 +76,4 @@ html, body {
     padding-left:4rem;
     padding-right:4rem;
 
-}
-#map {
-	height: 35rem;
-	width: 100%;
 }
