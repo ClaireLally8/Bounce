@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
-<body>
+<body onload="initMap()">
 
 	<section id="Landing-Page">
 		<div class="row" id=landing>
@@ -61,35 +61,29 @@
 		</div> 
 	</section>
 
-<section id = "recommendation">
-                <div class="form-group" id="countySelector">
-                    <input class="form-control" autocomplete="on" type="text" placeholder="Where would you visit next?" id="County">
-                </div>
-                <div class="form-group">
-                    <form id="selectorForm">
-                        <select class="form-control" id="todoSelector" onchange="attractionSelect(document.getElementById('todoSelector').value);">
-                            <option selected disabled>Select attraction...</option>
-                            <option value="to-do">To Do</option>
-                            <option value="sleep">Sleep</option>
-                            <option value="eat">Eat</option>
-                        </select>
-                    </form>
-                </div>
-	<div class="row">
-		<div class="col-md-6 offset-md-3">
-			<div id="map"></div>
-		</div>
-	</div> 
-
+    <div class="pac-card" id="pac-card">
+        <div id="pac-container">
+            <input id="pac-input" type="text" placeholder="Enter a location">
+        </div>
+    </div>
+    
+        <div class = "col-md-6 offset-md-3" id="map"></div>
+           
+            
+<div id="infowindow-content">
+                <img src= "" width="16" height="16" id="place-icon">
+                    <span id="place-name"  class="title"></span><br>
+                        <span id="place-address"></span>
+            </div>
 	<footer>
-		<h6> this is a footer </h6>
+		<h6> this is a footer I have not yet done this</h6>
 	</footer>
 
 
 	<script
 		src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
 	</script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8trMU_BLfDhjOh7DVXjaPaP2hoZyR2kM&callback=initMap">
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8trMU_BLfDhjOh7DVXjaPaP2hoZyR2kM&libraries=places">
 	</script>
 	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
