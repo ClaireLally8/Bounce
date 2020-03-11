@@ -61,31 +61,56 @@
 		</div> 
 	</section>
 
-    <div class="pac-card" id="pac-card">
-        <div id="pac-container">
-            <input id="pac-input" type="text" placeholder="Enter a location">
-        </div>
-    </div>
+  <div id="locationField">
+    <input id="autocomplete" placeholder="Enter a city" type="text" />
+  </div>
+</div>
     
     <div class="DropdownSelector">
                     <form>
-                        <select id="ThingSelector" onchange="ThingSelect(document.getElementById('ThingSelector').value);">
+                        <select id="ThingSelector" onchange="search(document.getElementById('ThingSelector').value);">
                             <option selected disabled>What are you looking for today?</option>
-                            <option value="aquarium">Food</option>
-                            <option value="amusement_park">Hotels</option>
+                            <option value="restaurants">Food</option>
+                            <option value="lodging">Hotels</option>
                         </select>
                     </form>
                 </div>
-    </div>
 
         <div class = "col-md-6 offset-md-3" id="map"></div>
            
             
-<div id="infowindow-content">
-                <img src= "" width="16" height="16" id="place-icon">
-                    <span id="place-name"  class="title"></span><br>
-                        <span id="place-address"></span>
-            </div>
+<div id="listing">
+  <table id="resultsTable">
+    <tbody id="results"></tbody>
+  </table>
+</div>
+
+<div style="display: none">
+  <div id="info-content">
+    <table>
+      <tr id="iw-url-row" class="iw_table_row">
+        <td id="iw-icon" class="iw_table_icon"></td>
+        <td id="iw-url"></td>
+      </tr>
+      <tr id="iw-address-row" class="iw_table_row">
+        <td class="iw_attribute_name">Address:</td>
+        <td id="iw-address"></td>
+      </tr>
+      <tr id="iw-phone-row" class="iw_table_row">
+        <td class="iw_attribute_name">Telephone:</td>
+        <td id="iw-phone"></td>
+      </tr>
+      <tr id="iw-rating-row" class="iw_table_row">
+        <td class="iw_attribute_name">Rating:</td>
+        <td id="iw-rating"></td>
+      </tr>
+      <tr id="iw-website-row" class="iw_table_row">
+        <td class="iw_attribute_name">Website:</td>
+        <td id="iw-website"></td>
+      </tr>
+    </table>
+  </div>
+</div>
 	<footer>
 		<h6> this is a footer I have not yet done this</h6>
 	</footer>
