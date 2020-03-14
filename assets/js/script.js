@@ -31,7 +31,8 @@ function initMap() {
 
 }
 document.getElementById("Eat").addEventListener("click",Eat);
-
+document.getElementById("Eat").addEventListener("click",Eat);
+document.getElementById("Eat").addEventListener("click",Eat);
 function Eat()
 {
     option="bar";
