@@ -1,5 +1,5 @@
 
-var map, places, infoWindow;
+var map, places, infoWindow, option;
 var markers = [];
 var autocomplete;
 var countryRestrict = {'country': 'ie'};
@@ -29,11 +29,16 @@ function initMap() {
 
   autocomplete.addListener('place_changed', onPlaceChanged);
 
-  // Add a DOM event listener to react when the user selects a country.
-  document.getElementById('country').addEventListener(
-      'change', setAutocompleteCountry);
 }
+document.getElementById("Eat").addEventListener("click",Eat);
 
+function Eat()
+{
+    option="bar";
+    clearMarkers();
+    clearMarkers();
+    search(option);
+}
 // When the user selects a city, get the place details for the city and
 // zoom the map in on the city.
 function onPlaceChanged() {
@@ -41,7 +46,7 @@ function onPlaceChanged() {
   if (place.geometry) {
     map.panTo(place.geometry.location);
     map.setZoom(15);
-    search();
+    search(option);
   } else {
     document.getElementById('autocomplete').placeholder = 'Enter a city';
   }
@@ -88,16 +93,6 @@ function clearMarkers() {
   }
   markers = [];
 }
-function ThingsSelector(option) {
-
-    // Functions to clear tables and markers if new attraction selected
-    removeMarkers();
-    clearTable();
-
-    //Call to get attractions based on selection
-    getAttractions(option);
-}
-
 // Set the country restriction based on user input.
 // Also center and zoom the map on the given country.
 function setAutocompleteCountry() {
