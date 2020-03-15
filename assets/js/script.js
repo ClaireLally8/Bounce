@@ -6,7 +6,6 @@ var countryRestrict = {'country': 'ie'};
 var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
 var hostnameRegexp = new RegExp('^https?://.+?/');
 
-
 function initMap() {
    map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 53.42620769757938, lng: -7.823638916015626},
@@ -194,5 +193,15 @@ function buildIWContent(place) {
     document.getElementById('iw-website').textContent = website;
   } else {
     document.getElementById('iw-website-row').style.display = 'none';
+  }
+}
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
   }
 }
