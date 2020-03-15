@@ -60,10 +60,6 @@
 			</div>
 		</div> 
 	</section>
-
-  <div id="locationField">
-    <input id="autocomplete" placeholder="Enter a city" type="text" />
-  </div>
   <div class="container">
 			<div class="row">
 				<div class="col-lg-4"><img src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="thumbnail" class="img-thumbnail">
@@ -77,15 +73,24 @@
 				</div>
 			</div></div>
 
-    
-        <div class = "col-md-6 offset-md-3" id="map"></div>
-           
-            
-<div id="listing">
-  <table id="resultsTable">
-    <tbody id="results"></tbody>
-  </table>
-</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div id="locationField">
+            <input id="autocomplete" placeholder="Enter a city" type="text" />
+          </div>
+          <div id="listing">
+            <table id="resultsTable">
+              <tbody id="results"></tbody>
+            </table>
+          </div>
+          </div>
+
+          <div class="col-lg-8" id="map">
+          </div>
+      </div>
+    </div>
+
 
 <div style="display: none">
   <div id="info-content">
