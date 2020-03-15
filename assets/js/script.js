@@ -31,13 +31,21 @@ function initMap() {
 
 }
 document.getElementById("Eat").addEventListener("click",Eat);
-document.getElementById("Eat").addEventListener("click",Eat);
-document.getElementById("Eat").addEventListener("click",Eat);
+document.getElementById("Sleep").addEventListener("click",Sleep);
+document.getElementById("Todo").addEventListener("click",toDo);
 function Eat()
 {
     option="bar";
-    clearMarkers();
-    clearMarkers();
+    search(option);
+}
+function Sleep()
+{
+    option="lodging";
+    search(option);
+}
+function toDo()
+{
+    option="park";
     search(option);
 }
 // When the user selects a city, get the place details for the city and
@@ -47,7 +55,6 @@ function onPlaceChanged() {
   if (place.geometry) {
     map.panTo(place.geometry.location);
     map.setZoom(15);
-    search(option);
   } else {
     document.getElementById('autocomplete').placeholder = 'Enter a city';
   }
@@ -93,18 +100,6 @@ function clearMarkers() {
     }
   }
   markers = [];
-}
-// Set the country restriction based on user input.
-// Also center and zoom the map on the given country.
-function setAutocompleteCountry() {
-  var country = document.getElementById('country').value;
-  if (country == 'all') {
-    autocomplete.setComponentRestrictions({'country': []});
-    map.setCenter({lat: 15, lng: 0});
-    map.setZoom(2);
-  } 
-  clearResults();
-  clearMarkers();
 }
 
 function dropMarker(i) {
