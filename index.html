@@ -15,16 +15,15 @@
 
 <body onload="initMap()">
 
-<div id="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-</div>
+	<div id="navbar">
+		<a href="#My-Story">My Story</a>
+		<a href="#recommendations">Recommendations</a>
+	</div>
 	<section id="Landing-Page">
 		<div id="landing">
-				<div id="landtext">
-					<h1>Travel Ireland Your Way</h1>
-                    <div class="row">
+			<div id="landtext">
+				<h1>Travel Ireland Your Way</h1>
+				<div class="row">
 					<div class="container col-4">
 						<div class="row">
 							<a id="gobtn" href="#My-Story">LET'S GO</a>
@@ -36,7 +35,7 @@
 	</section>
 
 	<section id="My-Story" class="story">
-		<h2 class="storyhead">My Story</h2>
+		<h2 class="header">My Story</h2>
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<img src="https://images.pexels.com/photos/3703158/pexels-photo-3703158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="image-fluid img-thumbnail storyimg" alt="About Me">
@@ -63,73 +62,79 @@
 					Everything you need to have the best adventure, is in your backgarden. From, the best hiking spots,
 					to sightseeing points, to places to camp. You'll find it all here. </p>
 			</div>
-		</div> 
+		</div>
 	</section>
-  <div class="container">
-			<div class="row">
-				<div class="col-lg-4"><img src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="thumbnail" class="img-thumbnail">
-					<h6 id = "Eat">Feast</h6>
+	<div class="container" id="recommendations">
+		<h2 class="header">Recommendations</h2>
+		<div class="row">
+			<div class="col-lg-4" id="Eat"><img src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="thumbnail" class="img-thumbnail">
+				<h6>Feast</h6>
+			</div>
+			<div class="col-lg-4" id="Sleep"><img src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="thumbnail" class="img-thumbnail">
+				<h6>Rest</h6>
+			</div>
+			<div class="col-lg-4" id="Todo"><img src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="thumbnail" class="img-thumbnail">
+				<h6>Bored?</h6>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div id="locationField">
+					<input id="autocomplete" placeholder="Enter a city" type="text" />
+          </div>
+					<div id="listing">
+						<table id="resultsTable">
+							<tbody id="results"></tbody>
+						</table>
+					</div>
 				</div>
-                <div class="col-lg-4"><img src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="thumbnail" class="img-thumbnail">
-					<h6 id = "Sleep">Rest</h6>
+
+				<div class="col-lg-8" id="map">
 				</div>
-                <div class="col-lg-4"><img src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="thumbnail" class="img-thumbnail">
-					<h6 id = "Todo">Bored?</h6>
-				</div>
-			</div></div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div id="locationField">
-            <input id="autocomplete" placeholder="Enter a city" type="text" />
-          </div>
-          <div id="listing">
-            <table id="resultsTable">
-              <tbody id="results"></tbody>
-            </table>
-          </div>
-          </div>
-
-          <div class="col-lg-8" id="map">
-          </div>
-      </div>
-    </div>
+			</div>
+		</div>
 
 
-<div style="display: none">
-  <div id="info-content">
-    <table>
-      <tr id="iw-url-row" class="iw_table_row">
-        <td id="iw-icon" class="iw_table_icon"></td>
-        <td id="iw-url"></td>
-      </tr>
-      <tr id="iw-address-row" class="iw_table_row">
-        <td class="iw_attribute_name">Address:</td>
-        <td id="iw-address"></td>
-      </tr>
-      <tr id="iw-phone-row" class="iw_table_row">
-        <td class="iw_attribute_name">Telephone:</td>
-        <td id="iw-phone"></td>
-      </tr>
-      <tr id="iw-rating-row" class="iw_table_row">
-        <td class="iw_attribute_name">Rating:</td>
-        <td id="iw-rating"></td>
-      </tr>
-      <tr id="iw-website-row" class="iw_table_row">
-        <td class="iw_attribute_name">Website:</td>
-        <td id="iw-website"></td>
-      </tr>
-    </table>
-  </div>
-</div>
-	<footer>
-		<h6> this is a footer I have not yet done this</h6>
-	</footer>
+		<div style="display: none">
+			<div id="info-content">
+				<table>
+					<tr id="iw-url-row" class="iw_table_row">
+						<td id="iw-icon" class="iw_table_icon"></td>
+						<td id="iw-url"></td>
+					</tr>
+					<tr id="iw-address-row" class="iw_table_row">
+						<td class="iw_attribute_name">Address:</td>
+						<td id="iw-address"></td>
+					</tr>
+					<tr id="iw-phone-row" class="iw_table_row">
+						<td class="iw_attribute_name">Telephone:</td>
+						<td id="iw-phone"></td>
+					</tr>
+					<tr id="iw-rating-row" class="iw_table_row">
+						<td class="iw_attribute_name">Rating:</td>
+						<td id="iw-rating"></td>
+					</tr>
+					<tr id="iw-website-row" class="iw_table_row">
+						<td class="iw_attribute_name">Website:</td>
+						<td id="iw-website"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<footer>
+			<h6> this is a footer I have not yet done this</h6>
+		</footer>
 
-	<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8trMU_BLfDhjOh7DVXjaPaP2hoZyR2kM&libraries=places"></script>
-	<script type="text/javascript" src="assets/js/script.js"></script>
+		<script
+			src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+		</script>
+		<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8trMU_BLfDhjOh7DVXjaPaP2hoZyR2kM&libraries=places">
+		</script>
+		<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 
 </html>
