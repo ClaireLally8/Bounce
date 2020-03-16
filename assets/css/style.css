@@ -6,14 +6,13 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color:#F1F2EB;
 }
 #map {
 	height: 35rem;
 	width: 100%;
 }
 #navbar {
-  background-color: #D8DAD3;
+    background-color:#A6D3A0;
   position: fixed;
   width: 100%;
   transition: top 0.3s;
@@ -23,17 +22,14 @@ html, body {
     font-family:"Liu Jian Mao Cao";
     font-size:2rem;
     line-height: 0.6em;
+    color:#808782;
+}
+#logo:hover{
+    color:#656565;
 }
 .navbar-light .navbar-toggler-icon{
   background-image: url("https://image.flaticon.com/icons/svg/744/744502.svg");
 }
-.nav-item {
-  font-size: 1rem;
-  letter-spacing: 2px;
-  text-align: center;
-  font-weight: 300;
-}
-
 .nav-item{
     color:#4A4A48;
     font-family:Montserrat;
@@ -44,8 +40,6 @@ html, body {
 
 .nav-item:hover {
   text-decoration: underline;
-  color: #776472;
-
 }
 #landing {
     height: 100vh;
