@@ -1,31 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
 
 html, body {
   scroll-behavior: smooth;
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color:#D8DAD3;
+  background-color:#F1F2EB;
 }
 #map {
 	height: 35rem;
 	width: 100%;
 }
 #navbar {
-  background-color: #F1F2EB;
+  background-color: #D8DAD3;
   position: fixed;
   width: 100%;
-  transition: top 0.7s;
+  transition: top 0.3s;
    z-index: 9999;
 }
-#navbar a {
-    color:#566246;
-    font-size:1.4em;
-    font-family: Montserrat;
-    text-align:right;
+#logo{
+    font-family:"Liu Jian Mao Cao";
+    font-size:2rem;
+    line-height: 0.6em;
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url("https://image.flaticon.com/icons/svg/744/744502.svg");
+}
+.nav-item {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.nav-item{
+    color:#4A4A48;
+    font-family:Montserrat;
+    letter-spacing: 1.5px;
     padding-left:2em;
-    padding-top:1.5em;
-    padding-bottom:1.5em;
+    padding-right:2em;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  color: #776472;
+
 }
 #landing {
     height: 100vh;
