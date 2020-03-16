@@ -1,6 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Courier+Prime|Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Montserrat:400,500|Playfair+Display+SC&display=swap');
+/*Colour Scheme :
+#463e4b
+#7a787d
+#b9bbba
+#cbc3c1
+#bfb0ad
+#ba7f61
+*/
 html, body {
   scroll-behavior: smooth;
   height: 100%;
@@ -11,21 +17,21 @@ html, body {
 	height: 35rem;
 	width: 100%;
 }
-#navbar {
-    background-color:#A6D3A0;
-  position: fixed;
-  width: 100%;
-  transition: top 0.3s;
-   z-index: 9999;
-}
 #logo{
     font-family:"Liu Jian Mao Cao";
     font-size:2rem;
     line-height: 0.6em;
-    color:#808782;
+    color: #463e4b;
 }
 #logo:hover{
-    color:#656565;
+    color:#7a787d;
+}
+#navbar {
+    background-color: #cbc3c1;
+  position: fixed;
+  width: 100%;
+  transition: top 0.3s;
+   z-index: 9999;
 }
 .navbar-light .navbar-toggler-icon{
   background-image: url("https://image.flaticon.com/icons/svg/744/744502.svg");
@@ -33,13 +39,14 @@ html, body {
 .nav-item{
     color:#4A4A48;
     font-family:Montserrat;
+    font-weight:500;
     letter-spacing: 1.5px;
     padding-left:2em;
     padding-right:2em;
 }
-
 .nav-item:hover {
   text-decoration: underline;
+  color:#ba7f61;
 }
 #landing {
     height: 100vh;
@@ -56,9 +63,15 @@ html, body {
   color: #FFFFFF;
   text-align: center;
   top: 50%;
-  left: 50%;
+  left:50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
+}
+.main-text{
+    font-size:5rem;
+    font-family:"Playfair Display SC";
+    text-shadow: .1em .1em .2em rgba(0, 0, 0, 0.6);
+    color:cornsilk;
 }
 #gobtn {
     text-decoration: none;
@@ -78,13 +91,13 @@ html, body {
     transition: .7s ease-in-out;
 }
 .story {
-    margin-top:10rem;
     margin-left:5rem;
     margin-right:5rem;
 }
 .header {
     text-align:center;
-    padding-bottom:5rem;
+    padding-bottom:5em;
+    padding-top:5em;
 }
 .img-thumbnail {
   padding:0;
