@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Montserrat:400,500|Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Liu+Jian+Mao+Cao|Montserrat:400,500|Playfair+Display+SC|Source+Code+Pro&display=swap');
 /*Colour Scheme :
 #463e4b
 #7a787d
@@ -111,6 +111,18 @@ display:block;
     color:#ba7f61;
     font-family:Montserrat;
     font-size:2rem;
+}
+.sectionhead{
+    font-family: Montserrat;
+    color:#463e4b;
+    text-align:center;
+}
+.sectiontext{
+font-family:"Source Code Pro";
+color:#7a787d;
+}
+#My-Story{
+    padding-bottom:8em;
 }
 .img-thumbnail {
   padding:0;
