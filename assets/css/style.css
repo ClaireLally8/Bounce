@@ -37,10 +37,10 @@ display:block;
     background-color: #cbc3c1;
   position: fixed;
   width: 100%;
-  transition: top 0.3s;
+  transition: top 0.5s;
    z-index: 9999;
 }
-.navbar-light .navbar-toggler-icon{
+.navbar-toggler-icon{
   background-image: url("https://image.flaticon.com/icons/svg/744/744502.svg");
 }
 .nav-item{
@@ -50,6 +50,7 @@ display:block;
     letter-spacing: 1.5px;
     padding-left:2em;
     padding-right:2em;
+    text-align:center;
 }
 .nav-item:hover {
   text-decoration: underline;
@@ -58,7 +59,7 @@ display:block;
 #landing {
     height: 100vh;
     position: relative;
-    background: url(https://images.pexels.com/photos/2961929/pexels-photo-2961929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed; 
+    background: url(../images/LandingImage.jpg) no-repeat center center fixed; 
     align-items: center;
     justify-content: center;
     overflow:hidden;
@@ -66,9 +67,9 @@ display:block;
 }
 #landtext {
   position: absolute;
-  font-family: 'Times New Roman', Times, serif;
+font-family:"Playfair Display SC";
   letter-spacing:0.25rem;
-  color: #FFFFFF;
+  color: #cbc3c1;
   text-align: center;
   top: 50%;
   left:50%;
@@ -77,9 +78,7 @@ display:block;
 }
 .main-text{
     font-size:5rem;
-    font-family:"Playfair Display SC";
     text-shadow: .1em .1em .2em rgba(0, 0, 0, 0.6);
-    color:cornsilk;
 }
 #gobtn {
     text-decoration: none;
@@ -87,7 +86,7 @@ display:block;
     height: 6.25rem;
     width: 6.25rem;
     border-radius: 50%;
-    color: #fff;
+    color:#cbc3c1;
     align-items: center;
     justify-content: center;
     background-color: rgba(0,0,0,0.5);
@@ -97,7 +96,7 @@ display:block;
   margin-right: auto;
 }
 #gobtn:hover {
-    background-color: #8A9A5B;
+    background-color: #ba7f61;
     transition: .7s ease-in-out;
 }
 .story {
@@ -115,14 +114,13 @@ display:block;
 .sectionhead{
     font-family: Montserrat;
     color:#463e4b;
-    text-align:center;
 }
 .sectiontext{
 font-family:"Source Code Pro";
 color:#7a787d;
 }
 #My-Story{
-    padding-bottom:8em;
+    padding-bottom:10em;
 }
 .img-thumbnail {
   padding:0;
