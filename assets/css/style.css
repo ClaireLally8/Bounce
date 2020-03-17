@@ -16,6 +16,7 @@ html, body {
 #map {
 	height: 35rem;
 	width: 100%;
+    margin-top:8rem;
 }
 .divider{
 height:50px;
@@ -134,6 +135,20 @@ color:#7a787d;
 }
 .sectiontext{
     padding-top:1rem;
+}
+.flag {
+  position: absolute;
+  background-color: #b9bbba;
+  color: #463e4b;
+  opacity: 80%;
+  top: 50%;
+  font-size: 1.5em;
+  padding-left: 0.34em;
+  padding-right: 0.34em;
+  padding-bottom: 0.2em;
+}
+.filters{
+    margin-top:3rem;
 }
 #infowindow-content .title {
   font-weight: bold;
