@@ -52,7 +52,7 @@ display:block;
     padding-left:3em;
     padding-right:2em;
     text-align:center;
-    font-size:1.6rem;
+    font-size:1.2srem;
 }
 .nav-item:hover {
   text-decoration: underline;
@@ -155,6 +155,7 @@ padding-top:1rem;
 }
 .filters{
     margin-top:3rem;
+    margin-bottom:7rem;
 }
 input[type=text] {
   width: 100%;
@@ -180,7 +181,24 @@ input[type=text] {
 #infowindow-content {
   display: inline;
 }
+.site-footer {
+    margin-top:6rem;
+  text-align: center;
+  background-color:#cbc3c1;
+}
+.Socials {
+  display: inline-block;
+  color: #463e4b;
+  text-align: left;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+  font-size: 3em;
+  padding: 20px 20px 10px 15px;
 
+}
+.Socials:hover {
+  color: #ba7f61;
+}
 @media screen and (max-width: 425px) {
   .header {
     font-size:1.8rem;
