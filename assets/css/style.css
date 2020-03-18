@@ -165,7 +165,10 @@ input[type=text] {
   font-family:Montserrat;
   font-weight:500;
   font-size:1.2rem;
-
+}
+#resultsTable{
+    font-family:"Source Code Pro";
+    color:#463e4b;
 }
 #infowindow-content .title {
   font-weight: bold;
