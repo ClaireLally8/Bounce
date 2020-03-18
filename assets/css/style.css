@@ -142,7 +142,6 @@ padding-top:1rem;
 	-webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 	        animation: shadow-drop-2-center 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
-
 .flag {
   position: absolute;
   background-color: #463e4b;
