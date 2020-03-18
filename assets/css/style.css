@@ -52,6 +52,7 @@ display:block;
     padding-left:2em;
     padding-right:2em;
     text-align:center;
+
 }
 .nav-item:hover {
   text-decoration: underline;
@@ -61,8 +62,8 @@ display:block;
     height: 100vh;
     position: relative;
     background: url(../images/LandingImage.jpg) no-repeat center center fixed; 
+   background-size: cover;
     align-items: center;
-    justify-content: center;
     overflow:hidden;
     margin-bottom:5rem;
 }
