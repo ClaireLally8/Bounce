@@ -7,6 +7,8 @@
 #bfb0ad
 #ba7f61
 */
+
+/* General page styling*/
 html, body {
   scroll-behavior: smooth;
   height: 100%;
@@ -18,6 +20,7 @@ html, body {
 	width: 100%;
     margin-top:8rem;
 }
+/* Mountain divider */
 .divider{
 height:50px;
 width:100px;
@@ -25,6 +28,7 @@ display:block;
   margin-left: auto;
   margin-right: auto;
 }
+/* Navbar & logo styling */
 #logo{
     font-family:"Liu Jian Mao Cao";
     font-size:2rem;
@@ -58,6 +62,7 @@ display:block;
   text-decoration: underline;
   color:#ba7f61;
 }
+/* Landing image & font style */
 #landing {
     height: 100vh;
     position: relative;
@@ -101,10 +106,12 @@ font-family:"Playfair Display SC";
     background-color: #ba7f61;
     transition: .7s ease-in-out;
 }
+/* Margins on the story section  */
 .story {
     margin-left:5rem;
     margin-right:5rem;
 }
+/* Styling to My Story section */
 .header {
     text-align:center;
     padding-bottom:5em;
@@ -130,18 +137,20 @@ padding-top:1rem;
   padding:0;
   cursor: pointer;
 }
-.heartbeat:hover{
-	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
-	        animation: heartbeat 1.5s ease-in-out infinite both;
-}
 .storyimg {
     box-shadow: 10px 10px 5px grey;
     opacity:90%;
+}
+/* Animations on Recommendations section */
+.heartbeat:hover{
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
 }
 .shadow-drop-2-center {
 	-webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 	        animation: shadow-drop-2-center 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
+/* Styling on the recommendations section */
 .flag {
   position: absolute;
   background-color: #463e4b;
@@ -181,6 +190,7 @@ input[type=text] {
 #infowindow-content {
   display: inline;
 }
+/* Footer  */
 .site-footer {
     margin-top:6rem;
   text-align: center;
@@ -199,12 +209,14 @@ input[type=text] {
 .Socials:hover {
   color: #ba7f61;
 }
+
+/*Media Query to reduce the font size on small screen */
 @media screen and (max-width: 425px) {
   .header {
     font-size:1.8rem;
   }
 }
-
+/* Animation keyframes on Recommendations section */
 @-webkit-keyframes shadow-drop-2-center {
   0% {
     -webkit-transform: translateZ(0);

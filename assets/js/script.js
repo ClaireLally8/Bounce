@@ -16,10 +16,10 @@ function initMap() {
         content: document.getElementById('info-content')
     });
 
-    // Create the autocomplete object and associate it with the UI input control.
-    // Restrict the search to the default country, and to place type "cities".
+    // Create the autocomplete object and associate it with the input control.
+    // Restrict the search to Ireland, and to place type "cities".
     autocomplete = new google.maps.places.Autocomplete(
-      /** @type {!HTMLInputElement} */(
+    (
             document.getElementById('autocomplete')), {
         types: ['(cities)'],
         componentRestrictions: countryRestrict
@@ -29,6 +29,8 @@ function initMap() {
     autocomplete.addListener('place_changed', onPlaceChanged);
 
 }
+//Event listener that targets when a div is clicked & sets the option to the relevant filter on map
+//Then calls the Search function to filter the pins on the map. 
 document.getElementById("Eat").addEventListener("click", Eat);
 document.getElementById("Sleep").addEventListener("click", Sleep);
 document.getElementById("Todo").addEventListener("click", toDo);
@@ -56,7 +58,7 @@ function onPlaceChanged() {
     }
 }
 
-// Search for hotels in the selected city, within the viewport of the map.
+// Search for activity in the selected city, within the viewport of the map.
 function search(option) {
     var search = {
         bounds: map.getBounds(),
@@ -88,7 +90,7 @@ function search(option) {
         }
     });
 }
-
+//Clears the marks off the map
 function clearMarkers() {
     for (var i = 0; i < markers.length; i++) {
         if (markers[i]) {
@@ -97,13 +99,13 @@ function clearMarkers() {
     }
     markers = [];
 }
-
+//Drops marks on map when filter is selected
 function dropMarker(i) {
     return function () {
         markers[i].setMap(map);
     };
 }
-
+//Addres the results to the table
 function addResult(result, i) {
     var results = document.getElementById('results');
     var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
@@ -136,7 +138,7 @@ function clearResults() {
     }
 }
 
-// Get the place details for a hotel. Show the information in an info window,
+// Get the place details for an option. Show the information in an info window,
 // anchored on the marker for the hotel that the user selected.
 function showInfoWindow() {
     var marker = this;
@@ -193,6 +195,7 @@ function buildIWContent(place) {
     }
 }
 
+//The navbar when scrolled beyond the landing image it appears. 
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
