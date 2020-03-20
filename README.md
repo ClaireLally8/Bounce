@@ -87,6 +87,13 @@ The colours used were:
 
 ![Colour Scheme](https://github.com/ClaireLally8/TravelDiary/blob/master/assets/images/Color-Scheme.PNG)
 
+The site makes use of three key fonts : 
+   
+    - Source Code Pro 
+
+    - Montserrat
+    
+    - Playfair Display SC
 --- 
  # Features
 
@@ -114,7 +121,48 @@ Some of the other features on the site include the footer, with social media lin
 
 Navbar that appears & disappears when a user scrolls on the Landing page image.
 
+## **Features Left to Implement**
+
+- Wishlist page where users can add places they want to visit to a table & tick them off as they visit these places.
+
+- Upload section where users can upload their own images of their adventures around Ireland.
+
+- Contact section where users can get in touch with the site owner to share their recommendations on places to visit.
+
+- More interactivity on the map - allow users to click on a section and it filters the hotels, restuaurants or things to do within that area clicked on the map. 
+
+
  # Technologies Used
+
+ - HTML,
+
+- CSS,
+
+- Javascript 
+
+- JQuery
+
+- [Bootstrap](https://getbootstrap.com/)
+
+ 
+Also made use of
+
+- [Font Awesome](fontawesome.com)
+
+- [Flat Icon](https://www.flaticon.com/)
+
+- [Google Fonts](https://fonts.google.com/)
+
+- [Animista](https://animista.net/)
+
+- [HTML Validator](https://validator.w3.org/)
+
+- [CSS Validator](https://validator.w3.org/)
+
+- Testing with Chrome DevTools
+
+- Learned from [W3schools](https://www.w3schools.com/)
+
  # Testing
  # Deoplyment
  # Credits/Media
