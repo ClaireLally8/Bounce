@@ -91,6 +91,21 @@ The colours used were:
 ![Colour Scheme](https://github.com/ClaireLally8/TravelDiary/blob/master/assets/images/Color-Scheme.PNG)
 
  # Features
+
+## **Existing Features**
+
+**Landing Page**
+- This is the first section a user sees upon coming onto the pages.  Users a presented with a landing image the size of the screen and a button, when clicking will bring them to the My Story section. 
+
+**My Story**
+- This section gives a breakdown of the site owners experience travelling and why the page came to exist.  It shares their experience travelling around the country after leaving their job. 
+
+- The section is split into three images, covering What Travel Ireland is, Who the owner is and How it came to be. 
+
+- Beneath each image, is a short paragraph addressing the sections. 
+
+**Recommendations**
+
  # Technologies Used
  # Testing
  # Deoplyment
