@@ -250,4 +250,19 @@ Allow a few minutes to pass before opening your newly deployed link! Clicking th
 
 
  # Credits/Media
- # Acknowledgements
+
+ - All images of Ireland used on this page were taken from Google Images.
+
+- The icons used for the footer were taken from Font Awesome.
+
+- The burger menu icon on the mobile view navbar page was taken from Flat Icon.
+
+- Google Maps API documentation was used in the creation of the Script for this site. 
+
+# Acknowledgements
+
+ - To create this website, I used many resources, like Stack Overflow, the wonderful Bootstrap and of course, every new programmers bible, W3 Schools.
+
+- The Keyframes for the Animation on the landing page was taken from [Animista](https://animista.net/)
+
+- Google Maps API Documentation assisted in the creation of the Javascript for this site. 
