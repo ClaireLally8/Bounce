@@ -1,27 +1,24 @@
 ## **Travel Ireland** 
 ## Table of Contents
-1. [**UX**](#ux)
+1. [**UX**](#user-experience)
     - [**User Stories**](#user-stories)
-    - [**Design**](#design)
-        - [**Framework**](#framework)
-        - [**Color Scheme**](#color-scheme)
-        - [**Icons**](#icons)
-        - [**Typography**](#typography)
-    - [**Wireframes**](#wireframes)
+    - [**Strategy**](#Strategy)
+     [**Scope**](#scope)
+     [**Structure**](#structure)
+     [**Skeleton**](#skeleton)
+     [**Structure**](#strucuture)
+    - [**Surface**](#surfacec)
 
 2. [**Features**](#features)
     - [**Existing Features**](#existing-features)
     - [**Features Left to Implement**](#features-left-to-implement)
 
 3. [**Technologies Used**](#technologies-used)
-    - [**Front-End Technologies**](#front-end-technologies)
-    - [**Miscellaneous Technologies**](#miscellaneous-technologies)
 
 4. [**Testing**](#testing)
     - [**Validators**](#validators)
     - [**Compatibility**](#compatibility)
     - [**Known Issues**](#known-issues)
-    - [**Automated Testing**](#automated-testing)
 
 5. [**Deployment**](#deployment)
     - [**Local Deployment**](#local-deployment)
@@ -90,6 +87,7 @@ The colours used were:
 
 ![Colour Scheme](https://github.com/ClaireLally8/TravelDiary/blob/master/assets/images/Color-Scheme.PNG)
 
+--- 
  # Features
 
 ## **Existing Features**
@@ -105,6 +103,16 @@ The colours used were:
 - Beneath each image, is a short paragraph addressing the sections. 
 
 **Recommendations**
+ - This section has three core components.
+    - Filters.  Three images filtering by places to eat, sleep and activities to do. The images pulsate when hovered on to help users negotiate the filters.
+    - Search & Table.  A user input field that has a autocomplete generate by Google, allowing users to filter their city search.  Limited within Ireland.
+    - Google Maps image with markers on the filters activity. 
+
+**Other Features**
+
+Some of the other features on the site include the footer, with social media links, when hovered their colour changes.
+
+Navbar that appears & disappears when a user scrolls on the Landing page image.
 
  # Technologies Used
  # Testing
