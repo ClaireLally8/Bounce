@@ -212,7 +212,7 @@ Manual tests were conducted throughout the creation of this site.
 
 ---
 
- # Deoplyment
+ # Deployment
 
 **Deployment To Github Pages**
 
