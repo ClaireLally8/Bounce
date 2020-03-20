@@ -51,7 +51,7 @@ As a site owner, I want to
 - Share my story on travelling Ireland with links to all my relevant social media sites.
 
 ## **Strategy**
-My goal of this site is to create a simple, visually appealing website to help travel lovers discover the hidden gems in Ireland. 
+My goal of this site is to create a simple, visually appealing website to help travel lovers discover the hidden gems in Ireland by utilising the Google Maps API and Google Maps Documentation. 
 
 ## **Scope**
 To provide potential customers with information on hotels, restaturats and things to do in Ireland. 
@@ -68,7 +68,19 @@ The images contain the Bootstrap `img-thumbnail` class to ensure both responsive
 
 To ensure clarity in the filter images, I added a `:hover` pulsating animation, which encourages users to search by their activity filter on the map, and ensures users know how to serch by their filters. 
 
-When a user searches for an activity and city, then a table appears with a list of all activities in the area selected. 
+When a user searches for an activity and city, then a table appears with a list of all activities in the area selected.  
+
+The map automatically zooms in to the selected city. If a city is not selected and a filter is, then it will drop pins by default to the centre of the country.  
+ 
+ ## **Skeleton**
+This website is structure over one page, using Google Maps API. 
+
+The page is split into three core sections. 
+
+ 1. [Landing Page](wireframes/Landing-Page.png)
+ 2. [My Story](wireframes/My-Story/png)
+ 3. [Recommendations](wireframes/Recommendations.png)
+
  # Features
  # Technologies Used
  # Testing
