@@ -196,7 +196,9 @@ function buildIWContent(place) {
 }
 
 //The navbar when scrolled beyond the landing image it appears. 
-window.onscroll = function () { scrollFunction() };
+		window.onscroll = function () 
+    { scrollFunction(); 
+    };
 
 function scrollFunction() {
     if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
