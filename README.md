@@ -86,7 +86,8 @@ These are the wireframes, which include both the desktop and mobile view for eac
 
 The colour scheme for this project was quite minimalistic, involving browns and a salmon colour.  This compliemented the main landing image, of a sunset and the filter sections.
 
-The colours used were: 
+The colours used were:
+
 ![Colour Scheme](https://github.com/ClaireLally8/TravelDiary/blob/master/assets/images/Color-Scheme.PNG)
 
  # Features
