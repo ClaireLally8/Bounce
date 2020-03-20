@@ -33,9 +33,9 @@
     - [**Code**](#code)
     - [**Acknowledgements**](#acknowledgements)
 ---
- ## User Experience
+ ## **User Experience**
 ---
-### User stories 
+### **User stories**
 
 As a travel lover, I want to:
 
@@ -50,10 +50,30 @@ As a site owner, I want to
 
 - Share my story on travelling Ireland with links to all my relevant social media sites.
 
+## **Strategy**
+My goal of this site is to create a simple, visually appealing website to help travel lovers discover the hidden gems in Ireland. 
 
+## **Scope**
+To provide potential customers with information on hotels, restaturats and things to do in Ireland. 
+
+## **Structure**
+The main structure of this website involves three main sections, the landing page, the My Story section and the Recommendations section. 
+
+The navbar appears when the user scrolls beyond the main landing images and is then stick, creating a smooth expeirence for each user.  Users can click on the "Let's Go" button, which using the `scroll-behavior: smooth` command CSS, to create an overall smooth expeirence for user on scrolling. 
+On smaller screens, the navbar collapses using Bootstrap, to a unique hamburger style icon, using a plane flying around the globe.  When that icon is clicked, a dropdown menu with centered text is opened, allowing the user to navigate through the site. 
+
+The landing page text has a shadow to make it stand out and a Serif style font, which compliments the two sans-serif fonts that are used through the remainder of the site. 
+
+The images contain the Bootstrap `img-thumbnail` class to ensure both responsiveness and the shadow that accompanies the bootstrap class. 
+
+To ensure clarity in the filter images, I added a `:hover` pulsating animation, which encourages users to search by their activity filter on the map, and ensures users know how to serch by their filters. 
+
+When a user searches for an activity and city, then a table appears with a list of all activities in the area selected. 
  # Features
  # Technologies Used
  # Testing
  # Deoplyment
  # Credits/Media
  # Acknowledgements
+
+ `class`
