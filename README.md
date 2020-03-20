@@ -77,9 +77,17 @@ This website is structure over one page, using Google Maps API.
 
 The page is split into three core sections. 
 
+These are the wireframes, which include both the desktop and mobile view for each section.
  1. [Landing Page](wireframes/Landing-Page.png)
  2. [My Story](wireframes/My-Story/png)
  3. [Recommendations](wireframes/Recommendations.png)
+
+## **Surface**
+
+The colour scheme for this project was quite minimalistic, involving browns and a salmon colour.  This compliemented the main landing image, of a sunset and the filter sections.
+
+The colours used were: 
+![Colour Scheme](assets/images/Color-Scheme.png)
 
  # Features
  # Technologies Used
