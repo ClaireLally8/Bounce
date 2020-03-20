@@ -1,13 +1,21 @@
 ## **Travel Ireland** 
+
+Travel Ireland is a travel diary created to encourage travel lovers around Ireland on one of the most stunning countries in the world. 
+
+This site makes use of the Google Maps API to allow travel lovers filter by hotels, restaurants and things to do in each county in Ireland.  
+
+Ireland is one of the most undiscovered gems, with the rugged mountains, and practically untouched countryside. The aim of this site is to show users the beauty of this country and the gems that lie within. 
+
+---
+
 ## Table of Contents
 1. [**UX**](#user-experience)
     - [**User Stories**](#user-stories)
-    - [**Strategy**](#Strategy)
-     [**Scope**](#scope)
-     [**Structure**](#structure)
-     [**Skeleton**](#skeleton)
-     [**Structure**](#strucuture)
-    - [**Surface**](#surfacec)
+    - [**Strategy**](#strategy)
+    - [**Scope**](#scope)
+    - [**Structure**](#structure)
+    - [**Skeleton**](#skeleton)
+    - [**Surface**](#surface)
 
 2. [**Features**](#features)
     - [**Existing Features**](#existing-features)
@@ -134,11 +142,11 @@ Navbar that appears & disappears when a user scrolls on the Landing page image.
 
  # Technologies Used
 
- - HTML,
+ - HTML
 
-- CSS,
+- CSS
 
-- Javascript 
+- Javascript
 
 - JQuery
 
@@ -146,6 +154,8 @@ Navbar that appears & disappears when a user scrolls on the Landing page image.
 
  
 Also made use of
+
+---
 
 - [Font Awesome](fontawesome.com)
 
@@ -164,8 +174,48 @@ Also made use of
 - Learned from [W3schools](https://www.w3schools.com/)
 
  # Testing
+
+Manual tests were conducted throughout the creation of this site. 
+
+--- 
+
+**Validators**
+
+--- 
+- HTML
+
+    - W3C HTML Validator: 
+
+        - Document checkig on HTML. No errors or warnings to show.
+
+- CSS
+
+    - W3C CSS Validator
+        - The W3C Validator displayed an error with font size spelt incorrectly.  This issue was resolve and no errors followed on from this. 
+
+- JavaScript
+    - JShint
+
+        -  **Metrics**
+
+        - There are 18 functions in this file.
+
+        - Function with the largest signature take 2 arguments, while the median is 0.
+
+        -   Largest function has 25 statements in it, while the median is 2.5.
+
+        - The most complex function has a cyclomatic complexity value of 7 while the median is 1.
+
+        - One undefined variable 
+            - `google`
+
+- Other Testing
+
+    - Testing during section construction was done primarily with Chrome DevTools, making sure each element works correctly and optimally, including responsiveness across devices. For navbar, I tested the functionality of all links, including the site brand. I also tested the color change of links to hover and toggle and collapse functioning in small devices. 
+
+    - A small amount of user tests were conducted to ensure that the site was sufficiently user friendly and all users were satisfied with the overall experience of using hte website. 
+
  # Deoplyment
+ 
  # Credits/Media
  # Acknowledgements
-
- `class`
