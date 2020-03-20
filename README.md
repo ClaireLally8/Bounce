@@ -139,6 +139,7 @@ Navbar that appears & disappears when a user scrolls on the Landing page image.
 
 - More interactivity on the map - allow users to click on a section and it filters the hotels, restuaurants or things to do within that area clicked on the map. 
 
+---
 
  # Technologies Used
 
@@ -172,6 +173,8 @@ Also made use of
 - Testing with Chrome DevTools
 
 - Learned from [W3schools](https://www.w3schools.com/)
+
+---
 
  # Testing
 
@@ -215,7 +218,36 @@ Manual tests were conducted throughout the creation of this site.
 
     - A small amount of user tests were conducted to ensure that the site was sufficiently user friendly and all users were satisfied with the overall experience of using hte website. 
 
+---
+
  # Deoplyment
- 
+
+**Deployment To Github Pages**
+
+- In my account GitHub website, I selected Repositories
+
+- I selected TravelDiary from the GitHub Dashboard.
+
+- I navigated to Settings and to the GitHub Pages section.
+
+- From the Source section, I clicked on the drop-down menu and selected Master Branch.
+
+- Once Master Branch is selected, the page has been automatically refreshed, with a detailed ribbon display GitHub Source Saved Pages indicating the successful implementation.
+
+The live link can be found here - https://clairelally8.github.io/TravelDiary/
+
+**PLEASE NOTE**
+
+Allow a few minutes to pass before opening your newly deployed link! Clicking this link too quickly may result in a failure to build the site, causing an Error 404 page instead.
+
+**Local Deployment**
+
+ - To run locally, you can do one of the following two options 
+    
+    - Clone the repository using the `git clone https://github.com/clairelally8/traveldiary.git` command
+
+    - Download the zip file, unzip and run it in your favourite local IDE (such as VS Code)
+
+
  # Credits/Media
  # Acknowledgements
