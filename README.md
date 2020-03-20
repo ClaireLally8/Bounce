@@ -24,18 +24,10 @@ Ireland is one of the most undiscovered gems, with the rugged mountains, and pra
 3. [**Technologies Used**](#technologies-used)
 
 4. [**Testing**](#testing)
-    - [**Validators**](#validators)
-    - [**Compatibility**](#compatibility)
-    - [**Known Issues**](#known-issues)
 
 5. [**Deployment**](#deployment)
-    - [**Local Deployment**](#local-deployment)
-    - [**Remote Deployment**](#remote-deployment)
 
 6. [**Credits**](#credits)
-    - [**Content**](#content)
-    - [**Media**](#media)
-    - [**Code**](#code)
     - [**Acknowledgements**](#acknowledgements)
 ---
  ## **User Experience**
@@ -249,7 +241,9 @@ Allow a few minutes to pass before opening your newly deployed link! Clicking th
     - Download the zip file, unzip and run it in your favourite local IDE (such as VS Code)
 
 
- # Credits/Media
+ # Credits
+ 
+ **Media**
 
  - All images of Ireland used on this page were taken from Google Images.
 
